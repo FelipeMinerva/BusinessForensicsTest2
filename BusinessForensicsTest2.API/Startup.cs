@@ -34,7 +34,8 @@ namespace BusinessForensicsTest2.API
                     builder =>
                     {
                         builder.WithOrigins("http://localhost:4200",
-                                            "http://127.0.0.1:4200");
+                                            "http://127.0.0.1:4200",
+                                            "http://191.239.244.170");
                     });
             });
 
