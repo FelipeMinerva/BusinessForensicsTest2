@@ -10,7 +10,7 @@ import { AnimalService } from './services/animal.service';
 export class AppComponent implements OnInit {
   animals: Animal[];
 
-  showingDangerous =false;
+  showingDangerous = false;
 
   constructor(private animalService: AnimalService) {}
 
@@ -29,10 +29,9 @@ export class AppComponent implements OnInit {
   }
 
   public filterDangerous(): void {
-    if (!this.showingDangerous){
+    if (!this.showingDangerous) {
       this.animalService.getDangerous().subscribe((z) => (this.animals = z));
-      this.showingDangerous = !this.showingDangerous;
-    }
-    else this.getAll();
+    } else this.getAll();
+    this.showingDangerous = !this.showingDangerous;
   }
 }
