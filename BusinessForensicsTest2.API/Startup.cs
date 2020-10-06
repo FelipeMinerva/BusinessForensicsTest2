@@ -56,12 +56,21 @@ namespace BusinessForensicsTest2.API
 
             app.UseCors();
 
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSpa(spa =>
+                {
+                    if (env.IsDevelopment())
+                    {
+                        spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    }
+                });
         }
     }
 }
