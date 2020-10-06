@@ -7,6 +7,7 @@ namespace BusinessForensicsTest2.Domain.Species
     [Predator]
     public class Wolf : Mammal, IDangerous
     {
-
+        public override string Name { get => "Wolf"; }
+        public override string Picture { get; set;  }
     }
 }

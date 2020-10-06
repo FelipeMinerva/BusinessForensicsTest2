@@ -5,8 +5,10 @@ using BusinessForensicsTest2.Domain.Interfaces;
 namespace BusinessForensicsTest2.Domain.Species
 {
     [Predator]
-    public class Tarantula : Insect, IDangerous
+    public class Tarantula : Animal, IDangerous
     {
+        public override string Name => "Tarantula";
 
+        public override string Picture { get; set; }
     }
 }

@@ -24,7 +24,6 @@ namespace BusinessForensicsTest2
             foreach (var animal in animals)
             {
                 animal.Feed();
-                DisplayPicture(animal.Picture); 
             }
         }
 

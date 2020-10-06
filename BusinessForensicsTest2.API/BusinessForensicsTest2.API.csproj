@@ -2,6 +2,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessForensicsTest2.Domain\BusinessForensicsTest2.Domain.csproj" />
+    <ProjectReference Include="..\BusinessForensicsTest2.DAL\BusinessForensicsTest2.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <PropertyGroup>

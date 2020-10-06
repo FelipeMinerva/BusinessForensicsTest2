@@ -7,6 +7,8 @@ namespace BusinessForensicsTest2.Domain.Species
     [Predator]
     public class Shark : Fish, IDangerous
     {
+        public override string Name => "Shark";
 
+        public override string Picture { get ;set; }
     }
 }

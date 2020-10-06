@@ -1,0 +1,19 @@
+<mat-card class="card">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="header-image"></div> -->
+    <mat-card-title>{{animal.name}}</mat-card-title>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="{{animal.picture}}"
+    alt="Photo of a {{animal.name}}"
+  />
+  <mat-card-content>
+    <p>
+      {{animal.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button (click)="removeAnimal()" mat-button>REMOVE</button>
+  </mat-card-actions>
+</mat-card>

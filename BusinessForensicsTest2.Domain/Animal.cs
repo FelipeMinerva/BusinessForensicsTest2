@@ -2,10 +2,9 @@
 
 namespace BusinessForensicsTest2.Domain
 {
-    public abstract class Animal
+    public abstract partial class Animal
     {
-        public string Name { get; set; }
-        public byte[] Picture { get; set; }
-
+        public abstract string Name { get; }
+        public abstract string Picture { get; set; }
     }
 }

@@ -1,0 +1,36 @@
+.max-width {
+  width: 100%;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(128, 0, 0);
+  height: 15rem;
+}
+
+.form-field{
+  width: 8rem;
+  font-size: 1rem;
+}
+
+.margin-left{
+  margin-left: 2rem;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+
+@media screen and (min-width: 720px) {
+  .header {
+    background-color: rgb(128, 0, 0);
+    height: 5rem;
+  }
+}

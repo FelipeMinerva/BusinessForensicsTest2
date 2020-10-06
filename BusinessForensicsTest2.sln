@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessForensicsTest2.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessForensicsTest2.API", "BusinessForensicsTest2.API\BusinessForensicsTest2.API.csproj", "{1403D3A3-494F-42C9-B06B-7C290B2D2BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessForensicsTest2.DAL", "BusinessForensicsTest2.DAL\BusinessForensicsTest2.DAL.csproj", "{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{1403D3A3-494F-42C9-B06B-7C290B2D2BD0}.Release|x64.Build.0 = Release|Any CPU
 		{1403D3A3-494F-42C9-B06B-7C290B2D2BD0}.Release|x86.ActiveCfg = Release|Any CPU
 		{1403D3A3-494F-42C9-B06B-7C290B2D2BD0}.Release|x86.Build.0 = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|x64.Build.0 = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5FBC1AB-C19A-40B0-9A27-B2576BD0C9DC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

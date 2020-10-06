@@ -1,0 +1,9 @@
+.card {
+  max-width: 400px;
+  margin-top: 2rem;
+
+}
+
+.header-image{
+  background-size: cover;
+}
